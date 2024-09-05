@@ -1,0 +1,34 @@
+.test {
+    margin-top: 3rem;
+}
+
+.test-card {
+    display: flex;
+    width: 200%;
+    overflow-x: hidden;
+    margin-top: 4rem;
+}
+
+.test-container {
+    overflow-x: hidden;
+}
+
+.test-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .test-card {
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        
+        gap: 1rem;
+    }
+    .test-container{
+      
+    }
+}

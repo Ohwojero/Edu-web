@@ -1,0 +1,52 @@
+.campus{
+    margin-top: 2rem;
+    /* width: 90%; */
+    text-align: center;
+}
+.campus-gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+}
+.campus-gallery img{
+    width: 280px;
+    height: 300px;
+    border-radius: 20px;
+}
+.campus-btn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+.campus-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 300ms ease-in-out;
+}
+.campus-btn button:hover{
+    gap: 4px;
+}
+.two{
+    background: #212ea0;
+    color: #fff;
+}
+@media screen and (max-width:600px) {
+    .campus-gallery {
+        flex-direction: column;
+    }
+    .campus-gallery img{
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width:1024px){
+    .campus-gallery{
+        flex-wrap: wrap;
+    }
+}

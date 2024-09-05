@@ -1,0 +1,32 @@
+.program-container{
+    margin-top: 3rem;
+    background: #ffffff;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+.programs{
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+@media screen and (max-width:600px) {
+    .programs{
+        flex-direction: column;
+        gap: 0;
+    }
+    .program-container
+    {
+        margin-top: 0;
+        padding-top: 4px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .programs{
+        flex-wrap: wrap;
+    }
+}

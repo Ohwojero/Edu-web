@@ -1,0 +1,28 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 8rem;
+    
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+@media screen and (max-width:600px) {
+    footer{
+        flex-direction: column;
+        padding: 1rem 3rem;
+        margin-bottom: 10px;
+    }
+    footer ul{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    footer{
+        padding-bottom: 20rem;
+    }
+}

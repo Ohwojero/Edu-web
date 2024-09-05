@@ -1,0 +1,60 @@
+.header{
+  background: linear-gradient(rgba(53, 46, 95, 0.7),rgba(98, 90, 150, 0.7)), url('../Assets/headerimage.webp');
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.one{
+    width: 150px;
+
+}
+
+.header-container{
+    max-width: 800px;
+    text-align: center;
+    line-height: 1.5;
+}
+.header-btn{
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.header-btn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: 300ms ease-out;
+}
+.header-btn button:hover{
+    gap: 15px;
+}
+.header-text{
+    font-size: 15px;
+}
+@media screen and (max-width:600px) {
+    .header-container{
+        width: 70%;
+
+    }
+    .header-container h1{
+        font-size: 19px;
+    }
+    .header-container p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .header{
+        width: 100vw;
+    }
+}
