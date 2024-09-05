@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Edu-website.git/static/css/main.9ebe7cc5.css",
+    "main.js": "/Edu-website.git/static/js/main.a4998649.js",
+    "static/media/student1.jpeg": "/Edu-website.git/static/media/student1.0e3439188da88d5b4d9d.jpeg",
+    "static/media/headerimage.webp": "/Edu-website.git/static/media/headerimage.f248ba342248e26a3e05.webp",
+    "static/media/student3.jpg": "/Edu-website.git/static/media/student3.c2c3e98e981c4e50dbdb.jpg",
+    "static/media/user2.jpg": "/Edu-website.git/static/media/user2.16c6ab013642d1e76a44.jpg",
+    "static/media/gallery1.webp": "/Edu-website.git/static/media/gallery1.5e2d06f237c329e50f44.webp",
+    "static/media/gallery4.jpeg": "/Edu-website.git/static/media/gallery4.a845f10715352752afc5.jpeg",
+    "static/media/aboutimage.webp": "/Edu-website.git/static/media/aboutimage.7f0f16e069d9f16be29b.webp",
+    "static/media/student2.jpeg": "/Edu-website.git/static/media/student2.a211380de6d6ae1aff37.jpeg",
+    "static/media/gallery3.webp": "/Edu-website.git/static/media/gallery3.035c535e99fbb6c2ec43.webp",
+    "static/media/user4.webp": "/Edu-website.git/static/media/user4.144f44493d8b99c80b41.webp",
+    "static/media/logo.jpg": "/Edu-website.git/static/media/logo.61ea6b132e645031d5aa.jpg",
+    "static/media/user1.webp": "/Edu-website.git/static/media/user1.68cfa7d5a2ba3442ad71.webp",
+    "static/media/gallery2.webp": "/Edu-website.git/static/media/gallery2.e05303b99b9854a864f6.webp",
+    "static/media/user3.webp": "/Edu-website.git/static/media/user3.bfd5c64deb0c0ee376d2.webp",
+    "index.html": "/Edu-website.git/index.html",
+    "main.9ebe7cc5.css.map": "/Edu-website.git/static/css/main.9ebe7cc5.css.map",
+    "main.a4998649.js.map": "/Edu-website.git/static/js/main.a4998649.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ebe7cc5.css",
+    "static/js/main.a4998649.js"
+  ]
+}
