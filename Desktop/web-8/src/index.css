@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  list-style: none;
+  appearance: none;
+  text-decoration: none;
+  border: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+body {
+  font-family: DM Sans, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  height: 2000px;
+  background: #011523; 
+}
+
+.btn {
+  background: rgb(255, 255, 255);
+  padding: 14px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 5px;
+  color: rgba(96, 96, 96);
+}
+
+.btn a {
+  color: rgba(96, 96, 96);
+}
+
+.btn:hover {
+  background: transparent;
+  border: 1px solid #045c99;
+  color: white;
+}
+
+.container{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+section{
+  width: 100%;
+}
+/*-------------------Media for device----------------*/
+
+@media screen and (max-width:1024px) {
+  .container{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  
+}
+

@@ -1,0 +1,11 @@
+.work{  background: #f5fbff;
+  
+    padding-top: 6rem;
+}
+.work-container{
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}

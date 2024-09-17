@@ -1,0 +1,73 @@
+.building {
+    color: black;
+    background: #f5fbff;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.building-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.building-left{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.building-left h2 {
+    font-family: "DM Serif Display", sans-serif;
+    Font-size: 48px;
+    Font-weight:00;
+    Line-height: 57.6px;
+    color: rgb(1, 21, 35);
+    text-align: left;
+}
+
+.building-left p {
+    font-family: "DM Sans", sans-serif;
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 27px;
+    color: rgb(0, 0, 0);
+}
+.build-btn{
+    margin-top: 2rem;
+}
+.btns{
+    background: black;
+    color: white;
+}
+.btns:hover{
+    color: black;
+}
+.building-right img{
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:1024px) {
+    .building-container{
+        grid-template-columns: 1fr;
+        flex-wrap: wrap;
+    }
+
+   
+}
+
+@media screen and (max-width:600px) {
+    .building-container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .building-left h2{
+        font-size: 30px;
+        line-height: 1.2;
+        margin: 1rem 0 1rem;
+    }
+    
+    
+}

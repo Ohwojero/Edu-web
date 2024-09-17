@@ -1,0 +1,44 @@
+.ready {
+    background: #f5fbff;
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10rem;
+}
+
+.ready-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ready-content h2 {
+    font-family: "DM Serif Display", sans-serif;
+    Font-size: 56px;
+    text-align: center;
+    Line-height: 67.2px;
+    color: rgb(1, 21, 35)
+}
+
+.ready-content p {
+    font-family: "DM Sans", sans-serif;
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 27px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.ready-btn {
+    margin-top: 2rem;
+}
+
+.ready-btns {
+    background: rgb(1, 21, 35);
+    color: white;
+}

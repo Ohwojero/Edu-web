@@ -1,0 +1,45 @@
+.community{
+    padding-bottom: 5rem;
+  
+}
+.container-community{
+    overflow-x: hidden;
+}
+
+.community-content{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    width: 46%;
+    margin-left: 8rem;
+}
+.community-content h2{
+font-family: "DM Serif Display", sans-serif;
+Font-size: 48px;
+Line-height: 57.6px;
+color: rgb(255, 255, 255)
+}
+.community-content p{
+font-family: "DM Sans", sans-serif;
+Font-size: 18px;
+Font-weight: 400;
+Line-height: 27px;
+color: rgb(255, 255, 255);
+margin: 1rem 0 1rem;
+
+}
+
+@media screen and (max-width:1024px){
+    
+}
+
+
+@media screen and (max-width:600px) {
+    .community-content{
+        width: 80%;
+        margin-left: 1rem;
+    }
+}
+
+
+
+

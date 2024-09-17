@@ -1,0 +1,50 @@
+.inspire{
+    background: #f5fbff;
+    padding-top: 9rem;
+    padding-bottom: 4rem;
+}
+.container-inspire{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+.inspire-left img{
+    border-radius: 5px;
+}
+.inspire-right h2{
+font-family: "DM Serif Display", sans-serif;
+Font-size: 53px;
+Line-height: 57.6px;
+color: rgb(1, 21, 35)
+}
+.inspire-right p{
+    margin: 1rem 0 1rem;
+}
+.inspire-btn{
+    margin-top: 2rem;
+}
+.inspire-btns{
+    background: #011523;
+    color: white;
+}
+.inspire-btns:hover{
+    color: black;
+}
+
+@media screen and (max-width:1024px) {
+    .container-inspire{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .container-inspire{
+        grid-template-columns: 1fr;
+    }
+
+    .inspire-right h2{
+        font-size: 30px;
+        line-height: 1.5;
+    }
+}

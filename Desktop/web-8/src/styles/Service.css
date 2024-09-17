@@ -1,0 +1,50 @@
+.service {
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    background: #f5fbff;
+}
+
+.service-content {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.service-image img {
+    width: 90%;
+    margin: 0 auto;
+    height: 800px;
+    border-radius: 5px;
+}
+
+.service-image {
+    margin-top: 8rem;
+}
+
+.service-sec-01 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 13rem;
+}
+
+.service-sec-01-right img,
+.service-sec-01-left img {
+    height: 400px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+.sub-service-sec-01 {
+    display: grid;
+    margin-top: 2rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.sub-service-sec-01-text h1 {
+    font-family: "DM Serif Display", sans-serif;
+    Font-size: 48px;
+    Line-height: 57.6px;
+    color: rgb(1, 21, 35)
+}

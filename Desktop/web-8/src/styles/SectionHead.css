@@ -1,0 +1,14 @@
+.section-left h2{
+font-family: "DM Serif Display", sans-serif;
+Font-size: 48px;
+Line-height: 57.6px;
+color: rgb(1, 21, 35)
+}
+.section-left p{
+font-family: "DM Sans", sans-serif;
+Font-size: 18px;
+Font-weight: 400;
+Line-height: 27px;
+color: rgb(0, 0, 0);
+margin: 8px 0 9px;
+}

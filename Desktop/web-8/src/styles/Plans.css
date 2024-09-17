@@ -1,0 +1,89 @@
+.plans {
+    color: white;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+.plan-first-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.plan-first-section-left h2 {
+    font-family: "DM Serif Display", sans-serif;
+    Font-size: 40px;
+    Font-weight: ;
+    Line-height: 48px;
+    color: rgb(255, 255, 255)
+}
+
+.plan-first-section-right p {
+    font-family: "DM Sans", sans-serif;
+    Font-size: 18px;
+    Line-height: 27px;
+    color: rgb(255, 255, 255)
+}
+
+.plan-second-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10rem;
+    gap: 4rem;
+}
+
+.plan-icon {
+    font-size: 40px;
+}
+
+.plan-card h2 {
+    font-family: "DM Serif Display", sans-serif;
+    Font-size: 29px;
+    Line-height: 41.6px;
+    color: rgb(255, 255, 255);
+}
+
+.plan-btn p {
+    font-family: "DM Sans", sans-serif;
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(255, 255, 255)
+}
+
+.plan-btn {
+    margin-top: 3rem;
+
+}
+
+.plan-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-btns:hover {
+    gap: 5px;
+}
+
+.arrow-icon {
+    font-size: 20px;
+}
+
+@media screen and (max-width:1024px) {
+    .plan-first-section{
+        /* grid-template-columns: 1fr; */
+    }
+    .plan-second-section{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .plan-first-section{
+        grid-template-columns: 1fr;
+    }
+    .plan-second-section{
+        grid-template-columns: 1fr;
+    }
+}

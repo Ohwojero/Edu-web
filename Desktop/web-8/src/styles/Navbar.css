@@ -1,0 +1,222 @@
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:#011523;
+    z-index: 99;
+}
+
+/*---------------------------NAVBAR TOGGLE MENU FOR MEDIUM AND SMALL---------------------------*/
+
+.toggle-btn{
+    border: none;
+    font-size: 25px;
+    background: transparent;
+    display: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 8rem;
+}
+.nav-links li{
+    font-family: "DM Sans", sans-serif;
+    Font-size: 18px;
+    Font-weight: 400;
+    Line-height: 24px;
+    
+}
+.nav-links li a{
+    color: rgb(255, 255, 255);
+}
+.contact-link{
+    background: white;
+}
+
+
+/*MEDIA QUERIE FOR MEDIUM AND SMALL DEVICE------*/
+
+@media screen and (max-width:600px) {
+
+    nav{
+        padding-left: 2rem;
+        padding-right: 5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        z-index: 99;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        border: 1px solid white;
+    }
+    
+    .toggle-btn{
+        display:block;
+        background: transparent;
+        color: white;
+    }
+
+    .nav-links{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        flex-direction: column;
+        gap: 0;
+        background: #045c99;
+        perspective: 800ms;
+        margin-right: 0;
+    }
+    .nav-links li{
+        height: 4rem;
+        width: 100%;
+        animation: navAnimation 600ms ease forwards;
+        transform: rotateX(90deg);
+        opacity: 0;
+        transform-origin: top;
+        box-shadow: -2rem 2rem 5rem rgba(0,0,0,0.4);
+    }
+
+    .nav-links li:nth-child(2){
+        animation-delay: 200ms;
+    }
+
+    .nav-links li:nth-child(3){
+        animation-delay: 400ms;
+    }
+
+    .nav-links li:nth-child(4){
+        animation-delay: 600ms;
+    }
+
+    .nav-links li:nth-child(5){
+        animation-delay: 800ms;
+    }
+
+    @keyframes navAnimation {
+        to{
+            transform: rotateX(0);
+            opacity: 1;
+        }
+    }
+
+    .nav-links li a{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 1rem 5rem 1rem 3rem;
+        
+    }
+
+    .show-nav{
+        display: flex;
+    }
+    .hide-nav{
+        display: none;
+    }
+}
+
+/*-----------------------MEDIA FOR MEDIUM ----------------*/
+
+@media screen and (max-width:1024px) {
+
+    nav{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        width: 90%;
+        z-index: 99;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        border: 1px solid white;
+    }
+   
+    
+    /* .container{
+        padding: 0 2rem;
+    } */
+    .toggle-btn{
+        display:block;
+        background: transparent;
+        color: white;
+    }
+
+    .nav-links{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        flex-direction: column;
+        gap: 0;
+        background: #045c99;
+        perspective: 800ms;
+    
+    }
+    .nav-links li{
+        height: 4rem;
+        width: 100%;
+        animation: navAnimation 600ms ease forwards;
+        transform: rotateX(90deg);
+        opacity: 0;
+        transform-origin: top;
+        box-shadow: -2rem 2rem 5rem rgba(0,0,0,0.4);
+    }
+
+    .nav-links li:nth-child(2){
+        animation-delay: 200ms;
+    }
+
+    .nav-links li:nth-child(3){
+        animation-delay: 400ms;
+    }
+
+    .nav-links li:nth-child(4){
+        animation-delay: 600ms;
+    }
+
+    .nav-links li:nth-child(5){
+        animation-delay: 800ms;
+    }
+
+    @keyframes navAnimation {
+        to{
+            transform: rotateX(0);
+            opacity: 1;
+        }
+    }
+
+    .nav-links li a{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 1rem 5rem 1rem 3rem;
+        
+    }
+
+    .show-nav{
+        display: flex;
+    }
+    .hide-nav{
+        display: none;
+    }
+}

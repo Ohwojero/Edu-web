@@ -1,0 +1,65 @@
+.contact{
+    background: #f5fbff;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+.contact-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding-top: 3rem;
+}
+form input, textarea{
+    display: block;
+    border: 1px solid rgb(96,96,96);
+    width: 80%;
+    padding: 8px;
+}
+form input{
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+form textarea{
+    height: 8rem;
+}
+.contact-right{
+    background: #011523;
+    height: 40rem;
+    border-radius: 7px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.style1{
+    width: 250px;
+    height: 250px;
+    background: #f5fbff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.style2{
+    width: 200px;
+    height: 200px;
+    background:#011523 ;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.style3{
+    width: 150px;
+    height: 150px;
+    background: #f5fbff;
+    border-radius: 50%;
+}
+.style4{
+    width: 100px;
+    height: 100px;
+    background: #011523;
+    border-radius: 50%;
+}

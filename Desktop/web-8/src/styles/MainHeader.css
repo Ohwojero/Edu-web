@@ -1,0 +1,21 @@
+.mainheader{
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+}
+.mainheader h2{
+font-family: "DM Serif Display", sans-serif;
+Font-size: 56px;
+text-align: center;
+Line-height: 67.2px;
+color: rgb(1, 21, 35)
+}
+.mainheader p{
+font-family: "DM Sans", sans-serif;
+Font-size: 18px;
+text-align: center;
+Line-height: 27px;
+color: rgb(0, 0, 0)
+}
